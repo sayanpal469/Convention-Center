@@ -1,3 +1,10 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Baloo+Bhai+2:wght@400;700&family=Baloo+Bhaijaan+2:wght@400;500;700&family=Dancing+Script:wght@400;700&family=Fredoka+One&family=Fuzzy+Bubbles:wght@400;700&family=Indie+Flower&family=Lobster&family=Poppins:wght@200;300;400;500;700&family=Quicksand:wght@400;700&family=Raleway:wght@300;400;700&family=The+Nautigal:wght@400;700&display=swap');
+
+
+body{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
 
 .nav-link{
     color: #000;
@@ -83,9 +90,12 @@
     font-size: 12px;
 }
 
+
+
 footer{
     background-color: #000;
-    height: 200px;
+    height: auto;
+    padding-bottom: 5px;
 }
 
 .app{
@@ -105,4 +115,3 @@ footer{
 .app-icon{
     color: #fff;
 }
-
