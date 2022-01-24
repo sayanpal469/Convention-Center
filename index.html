@@ -20,7 +20,8 @@
   <body>
     <header>
         <section class="nav-section navbar-light text-light">
-            <nav class="navbar navbar-expand-lg">
+            <div class="">
+              <nav class="navbar navbar-expand-lg">
                 <div class="container">
                   <a class="navbar-brand" href="#">
                       <h5><span>B E N G A L I S H A D I</span></h5>
@@ -31,22 +32,26 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                        <a href="" class="nav-link" aria-current="page" href="#">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a href="#gallery" class="nav-link" href="#">Gallery</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Gallery</a>
+                        <a href="#service" class="nav-link" href="#">Services</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link">Contact us</a>
+                        <a href="#why" class="nav-link">Why Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact us</a>
                       </li>
                     </ul>
                     
                   </div>
                 </div>
               </nav>
+            </div>
         </section>
 
         <!-- Carousel Section -->
@@ -99,8 +104,10 @@
 
     <main class="my-5">
         <!-- Wedding Section -->
-        <section class="wedding-section">
-            <h2 class="text-center mb-4">Wedding</h2>
+        <section class="wedding-section" id="gallery">
+          <div class="text-center mb-4">
+            <h2 class="section-heading ">Wedding</h2>
+        </div>
             <div class="container overflow-hidden">
                 <div class="row g-5">
                     <div class="col-lg-3 col-md-6 col-12 text-center">
@@ -119,7 +126,7 @@
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente omnis esse facere incidunt numquam, autem natus vitae blanditiis ipsum eos.</p>
                     </div>
                     <div class="col-lg-3 col-md-6 col-12 text-center">
-                        <img src="images/7.png" alt="">
+                        <img src="images/6.png" alt="">
                         <h5>Bengali Shadi</h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quibusdam eius perspiciatis soluta officiis nulla voluptates temporibus blanditiis neque non?</p>
                     </div>
@@ -129,12 +136,12 @@
 
 
         <!-- Package Section-->
-        <section class="container package-section my-5">
+        <section class="container package-section my-5" id="service">
             <div class="text-center mb-4">
-                <h2>Our Package</h2>
+                <h2 class="section-heading ">Our Package</h2>
             </div>
 
-            <div class="container">
+            <div class="">
                 <div class="row text-start">
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="card">
@@ -204,7 +211,162 @@
                 </div>
             </div>
         </section>
+
+        <!-- Question Section -->
+
+        <section class="container question-area my-5" id="why">
+          <div class="text-center mb-4">
+            <h2 class="section-heading ">Frequently Asked Questions</h2>
+        </div>
+
+        <div class="overflow-hidden">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Accordion Item #1
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Accordion Item #3
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <img class="img-fluid m-lg-5" src="images/7.png"
+              alt="">
+            </div>
+          </div>
+        </div>
+        </section>
+
+        <!-- Contact section -->
+
+        <section class="contact-section" id="contact">
+          <div class="text-center mb-5">
+            <h2 class="section-heading">Contact us</h2>
+          </div>
+
+          <div class="contact container">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-1 text-center">
+
+                <h3><i class="icon fas fa-map-marker-alt"></i> Our Office Adress</h3>
+                <p>1- 25, Bidhan Sarani Road, Sealdah, Kolkata, West Bengal 700006</p>
+                <p>2- Marriage license burea Bangalore Marriage Registrar, #33, 1st Floor, Kammanahalli Main Rd, opposite Union Bank Of India</p>
+                <p>3- Andheri 4, Khar Telephone Exchange, Linking Rd, Khar West, Mumbai, Maharashtra 400052</p> <br>
+                
+
+                <h3><i class="icon far fa-envelope"></i> General Enquiries</h3>
+                <p>marriage123@gmail.com</p>
+
+                <h3><i class="icon fas fa-phone-alt"></i> Call Us</h3>
+                <p>+91-7872358979</p>
+
+                <h3><i class="icon far fa-clock"></i> Our Timing</h3>
+                <p>Mon-Sun : 10:00 AM - 07:00 PM</p>
+              </div>
+
+              <div class="col-lg-6 col-md-6 col-sm-1">
+                <form class="">
+                  <div class="form-row">
+                    <div class="form-group">
+                      <input type="name" class="form-control" id="inputEmail4" placeholder="YOUR NAME">
+                    </div>
+                    <div class="form-group col-md-12">
+                      <input type="email" class="form-control" id="inputPassword4" placeholder="YOUR EMAIL">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Adress 1">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Adress 2">
+                  </div>
+                  <div class="form-row">
+                    <div class="form-floating my-3">
+                      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                      <label for="floatingTextarea2">Your Message</label>
+                    </div>
+
+                    <div class="form-group col-md-4">
+                      <select id="inputState" class="form-control">
+                        <option selected>State</option>
+                        <option>Chennai</option>
+                        <option>Bangalore</option>
+                        <option>Mumbai</option>
+                        <option>Pune</option>
+                        <option>Others...</option>
+                        
+                      </select>
+                    </div>
+                    
+                  </div>
+                  <button type="submit" class="btn btn-outline-primary">Sign in</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
     </main>
+
+
+    <footer class="mt-5">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="">
+          <p class="text-light">© 2020 bike. All rights reserved</p>
+        </div>
+        <div class="mt-5">
+          <button class="btn app d-flex align-items-center">
+            <span><i class="app-icon fab fa-apple fa-2x me-4"></i></span>
+            
+            <a href="#">
+              <small>Download on the</small>
+              <h6>App Store</h6>
+            </a>
+          </button>
+          <button class="btn app mt-3 d-flex align-items-center">
+            <span><i class="app-icon fab fa-apple fa-2x me-4"></i></span>
+            
+            <a href="#">
+              <small>Download on the</small>
+              <h6>Play Store</h6>
+            </a>
+          </button>
+          </a>
+        </div>
+      </div>
+    </footer>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

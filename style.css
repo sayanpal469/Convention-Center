@@ -7,6 +7,12 @@
 .nav-link:hover{
     text-decoration: underline;
     color: #000;
+    font-weight: 700;
+}
+
+.section-heading{
+    font-size: 40px;
+    color: #207398;
 }
 
 .wedding-section img{
@@ -16,14 +22,14 @@
 }
 
 .card{
-    border: 1px solid lightgray;
+    border: none;
     border-radius: 30px;
+    box-shadow: 10px 10px 16px -9px rgba(186,186,186,0.89);
     transition: 1s;
 }
 
 .card:hover{
-    box-shadow: 10px 10px 16px -9px rgba(186,186,186,0.89);
-    border-radius: 30px;
+    box-shadow: 0 0 20px grey;
 }
 
 .card-3{
@@ -31,6 +37,7 @@
     background-color: #3F87F5;
     border-radius: 30px;
     position: relative;
+    box-shadow: 0 0 20px grey;
 }
 
 .hot{
@@ -41,5 +48,61 @@
     padding: 3px 10px;
     font-size: 10px;
     border-radius: 12px;
+}
+
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+.form-group input{
+    font-size: 12px;
+    border-radius: 15px;
+}
+
+.form-floating textarea{
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+#inputState{
+    font-size: 12px;
+    border-radius: 15px;
+}
+
+.icon{
+    font-size: 30px;
+    color: blue;
+}
+
+.contact-section{
+    background: #f5f6fa;
+    padding: 15px 10px;
+}
+.contact p{
+    font-size: 12px;
+}
+
+footer{
+    background-color: #000;
+    height: 200px;
+}
+
+.app{
+    border: none;
+    border-radius: 10px;
+    padding: 0 10px;
+    transition: 1s;
+    background: rgb(80, 72, 72);
+}
+
+.app a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.app-icon{
+    color: #fff;
 }
 
